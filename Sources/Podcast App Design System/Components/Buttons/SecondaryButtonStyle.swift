@@ -12,7 +12,7 @@ public struct SecondaryButtonStyle: ButtonStyle {
   
   public func makeBody(configuration: Configuration) -> some View {
     configuration.label
-      .font(.h4)
+      .font(.Label.m)
       .padding(Spacing.medium)
       .foregroundColor(Color.foregroundEmphasis)
       .scaleEffect(configuration.isPressed ? 0.95 : 1.0)

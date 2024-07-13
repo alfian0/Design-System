@@ -12,7 +12,7 @@ public struct PrimaryButtonStyle: ButtonStyle {
   
   public func makeBody(configuration: Configuration) -> some View {
     configuration.label
-      .font(.h4)
+      .font(.Label.m)
       .padding(Spacing.medium)
       .background(Capsule().fill(Color.backgrounddAccentEmphasis))
       .foregroundColor(.white)
