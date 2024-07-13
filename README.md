@@ -62,7 +62,6 @@ An overview of all available color variables
 Text("Listen to the best \n Podcast")
   .multilineTextAlignment(.center)
   .foregroundColor(.foregroundDefault)
-  .titleStyle()
 ```
 ### Typography
 An overview of all available typography variables
