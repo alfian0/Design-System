@@ -26,7 +26,8 @@ let package = Package(
             name: "Podcast App Design System",
             dependencies: [],
             resources: [
-              .process("Resources/Assets.xcassets"),
+              .process("Resources/Color.xcassets"),
+              .process("Resources/Media.xcassets"),
               .process("Resources/Fonts")
             ]),
         .testTarget(
