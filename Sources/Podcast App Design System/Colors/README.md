@@ -26,7 +26,7 @@ An overview of all available color variables
 |![#CEEDFF](https://via.placeholder.com/15/CEEDFF/000000?text=+)|info_emphasis|`.backgroundInfoEmphasis`|
 |![#CEEDFF](https://via.placeholder.com/15/CEEDFF/000000?text=+)|info_muted|`.backgroundInfoMuted`|
 |![#6DFBA6](https://via.placeholder.com/15/6DFBA6/000000?text=+)|success_emphasis|`.backgroundSuccessEmphasis`|
-|![#242327](https://via.placeholder.com/15/242327/000000?text=+)|success_muted|`.backgroundSuccessMuted`|
+|![#B8FFCE](https://via.placeholder.com/15/B8FFCE/000000?text=+)|success_muted|`.backgroundSuccessMuted`|
 |![#FFEF9B](https://via.placeholder.com/15/FFEF9B/000000?text=+)|warning_emphasis|`.backgroundWarningEmphasis`|
 |![#FFEF9B](https://via.placeholder.com/15/FFEF9B/000000?text=+)|warning_muted|`.backgroundWarningMuted`|
 ### Border
