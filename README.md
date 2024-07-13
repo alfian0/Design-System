@@ -10,7 +10,7 @@ The design system includes Figma files that contain design guidelines, component
 
 ## Features
 - [x] Color Tokens: Centralized color definitions for consistent use across the application.
-- [ ] Typography: Predefined text styles for headings, body text, captions, and more.
+- [x] Typography: Predefined text styles for headings, body text, captions, and more.
 - [ ] Components: Standardized UI components like buttons, labels, and views.
 - [ ] Asset Management: Easy inclusion and access to design assets like images and color sets.
 
