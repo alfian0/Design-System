@@ -32,6 +32,6 @@ An overview of all available color variables
 ### Border
 |Sample|Variable|Token|
 |:-|:-|:-|
-|<div style="width:20px;height:20px;border-style: solid;border-color:#242327;border-radius:4px;border-width: 1px;"></div>|fg_default|`.boderDefault`|
-|<div style="width:20px;height:20px;border-style: solid;border-color:#806DFB;border-radius:4px;border-width: 1px;"></div>|accent_emphasis|`.boderEmphasis`|
-|<div style="width:20px;height:20px;border-style: solid;border-color:#343434;border-radius:4px;border-width: 1px;"></div>|fg_disabled|`.boderDisabled`|
+|![#242327](https://via.placeholder.com/15/242327/000000?text=+)|fg_default|`.boderDefault`|
+|![#806DFB](https://via.placeholder.com/15/806DFB/000000?text=+)|accent_emphasis|`.boderEmphasis`|
+|![#343434](https://via.placeholder.com/15/343434/000000?text=+)|fg_disabled|`.boderDisabled`|
