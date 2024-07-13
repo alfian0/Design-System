@@ -5,7 +5,7 @@ An overview of all available color variables
 |:-|:-|:-|
 |$${\color{#242327}Aa}$$|fg_default|`.foregroundDefault`|
 |$${\color{#343434}Aa}$$|fg_disabled|`.foregroundDisabled`|
-|$\colorbox{#242327}{{\color{#F9F7F5}{Aa}}}$|fg_emphasis|`.foregroundEmphasis`|
+|$${\color{#F9F7F5}Aa}$$|fg_emphasis|`.foregroundEmphasis`|
 |$${\color{#A7A6A5}Aa}$$|fg_muted|`.foregroundMuted`|
 |$${\color{#806DFB}Aa}$$|accent_emphasis|`.foregroundLink`|
 |$${\color{#806DFB}Aa}$$|accent_emphasis|`.foregroundAccent`|
