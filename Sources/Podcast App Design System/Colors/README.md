@@ -3,16 +3,16 @@ An overview of all available color variables
 ### Foreground
 |Sample|Variable|Token|
 |:-|:-|:-|
-|<h3 style="color:#242327;">Aa</h3>|fg_default|`.foregroundDefault`|
-|<h3 style="color:#343434;">Aa</h3>|fg_disabled|`.foregroundDisabled`|
-|<h3 style="background-color:#242327;color:#F9F7F5;padding:4px;border-radius:4px;">Aa</h3>|fg_emphasis|`.foregroundEmphasis`|
-|<h3 style="color:#A7A6A5;">Aa</h3>|fg_muted|`.foregroundMuted`|
-|<h3 style="color:#806DFB;">Aa</h3>|accent_emphasis|`.foregroundLink`|
-|<h3 style="color:#806DFB;">Aa</h3>|accent_emphasis|`.foregroundAccent`|
-|<h3 style="color:#FF8E75;">Aa</h3>|danger_emphasis|`.foregroundDanger`|
-|<h3 style="color:#CEEDFF;">Aa</h3>|info_emphasis|`.foregroundInfo`|
-|<h3 style="color:#6DFBA6;">Aa</h3>|success_emphasis|`.foregroundSuccess`|
-|<h3 style="color:#FFEF9B;">Aa</h3>|warning_emphasis|`.foregroundWarning`|
+|$${\color{#242327}Aa}$$|fg_default|`.foregroundDefault`|
+|$${\color{#343434}Aa}$$|fg_disabled|`.foregroundDisabled`|
+|$\colorbox{#242327}{{\color{#F9F7F5}{Aa}}}$|fg_emphasis|`.foregroundEmphasis`|
+|$${\color{#A7A6A5}Aa}$$|fg_muted|`.foregroundMuted`|
+|$${\color{#806DFB}Aa}$$|accent_emphasis|`.foregroundLink`|
+|$${\color{#806DFB}Aa}$$|accent_emphasis|`.foregroundAccent`|
+|$${\color{#FF8E75}Aa}$$|danger_emphasis|`.foregroundDanger`|
+|$${\color{#CEEDFF}Aa}$$|info_emphasis|`.foregroundInfo`|
+|$${\color{#6DFBA6}Aa}$$|success_emphasis|`.foregroundSuccess`|
+|$${\color{#FFEF9B}Aa}$$|warning_emphasis|`.foregroundWarning`|
 ### Background
 |Sample|Variable|Token|
 |:-|:-|:-|
