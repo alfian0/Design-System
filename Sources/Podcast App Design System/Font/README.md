@@ -36,8 +36,8 @@ Use the `font` declaration to set all font properties at once (`font-weight`, `f
 |![.Paragraph.m](https://github.com/user-attachments/assets/307cc593-0399-4447-aec7-1c48404854bd)|`.Paragraph.m`|
 |![.Paragraph.l](https://github.com/user-attachments/assets/e5435b84-b4d3-4517-80ae-bd216cbeb9bf)|`.Paragraph.l`|
 |![.Paragraph.xl](https://github.com/user-attachments/assets/c1ed3c7e-4399-4f67-825f-0764df8a95b2)|`.Paragraph.xl`|
-|Label xs|`.Label.xs`|
-|Label s|`.Label.s`|
-|Label m|`.Label.m`|
-|Label l|`.Label.l`|
-|Label xl|`.Label.xl`|
+|![.Label.xs](https://github.com/user-attachments/assets/f954672b-8f54-49ba-aaed-44fd942c9471)|`.Label.xs`|
+|![.Label.s](https://github.com/user-attachments/assets/01ab3079-98d1-4298-a5e5-840edb4aaedc)|`.Label.s`|
+|![.Label.m](https://github.com/user-attachments/assets/957f8dce-c306-4056-b2fc-d20cc630a35c)|`.Label.m`|
+|![.Label.l](https://github.com/user-attachments/assets/26f2cf61-3ff3-4c9a-a8e0-a695f83f685d)|`.Label.l`|
+|![.Label.xl](https://github.com/user-attachments/assets/8e26a4c4-3eb1-4470-9772-248e243546d0)|`.Label.xl`|
