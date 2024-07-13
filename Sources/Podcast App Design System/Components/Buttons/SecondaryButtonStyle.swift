@@ -14,7 +14,7 @@ public struct SecondaryButtonStyle: ButtonStyle {
     configuration.label
       .font(.Label.m)
       .padding(Spacing.medium)
-      .foregroundColor(Color.foregroundEmphasis)
+      .foregroundColor(Color.foregroundDefault)
       .scaleEffect(configuration.isPressed ? 0.95 : 1.0)
   }
 }
