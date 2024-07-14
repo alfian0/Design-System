@@ -52,13 +52,13 @@ public struct CardView2: View {
         VStack(alignment: .leading, spacing: 6) {
           Text(model.title)
             .multilineTextAlignment(.leading)
-            .foregroundColor(.foregroundDefault)
+            .foregroundColor(.foregroundDisabled)
             .font(.Label.l)
           
           HStack(spacing: 2) {
             Text(model.description)
               .font(.Paragraph.s)
-              .foregroundColor(.foregroundDefault)
+              .foregroundColor(.foregroundDisabled)
           }
         }
       }
