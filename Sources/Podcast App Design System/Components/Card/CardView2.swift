@@ -60,6 +60,32 @@ public struct CardView2: View {
               .font(.Paragraph.s)
               .foregroundColor(.foregroundDisabled)
           }
+          
+          HStack {
+            Spacer()
+            
+            HStack(spacing: 4) {
+              Text("27")
+                .font(.Label.m)
+                .foregroundColor(.foregroundDisabled)
+              
+              Image("ic_like")
+                .renderingMode(.template)
+                .foregroundColor(.foregroundDisabled)
+                .frame(width: 12, height: 12)
+            }
+            
+            HStack(spacing: 4) {
+              Text("2")
+                .font(.Label.m)
+                .foregroundColor(.foregroundDisabled)
+              
+              Image("ic_like")
+                .renderingMode(.template)
+                .foregroundColor(.foregroundDisabled)
+                .frame(width: 12, height: 12)
+            }
+          }
         }
       }
       .padding(Spacing.medium)
