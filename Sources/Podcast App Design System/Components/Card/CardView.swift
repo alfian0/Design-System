@@ -53,10 +53,9 @@ public struct CardView: View {
           
           VStack(alignment: .leading, spacing: Spacing.medium) {
             Text(model.title)
-              .font(.notoSans(.medium, size: 14))
               .multilineTextAlignment(.leading)
               .foregroundColor(.foregroundDefault)
-//                .font(.Label.l)
+              .font(.Label.l)
             
             HStack {
               HStack(spacing: 2) {

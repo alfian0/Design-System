@@ -43,10 +43,10 @@ public extension Font {
   }
   
   struct Label {
-    public static let xs = notoSans(.regular, size: 10)
-    public static let s = notoSans(.regular, size: 12)
-    public static let m = notoSans(.regular, size: 14)
-    public static let l = notoSans(.regular, size: 16)
-    public static let xl = notoSans(.regular, size: 18)
+    public static let xs = notoSans(.medium, size: 10)
+    public static let s = notoSans(.medium, size: 12)
+    public static let m = notoSans(.medium, size: 14)
+    public static let l = notoSans(.medium, size: 16)
+    public static let xl = notoSans(.medium, size: 18)
   }
 }
