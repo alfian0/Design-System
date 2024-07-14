@@ -18,10 +18,23 @@ public struct CardView: View {
     public let like: Int
     public let image: Image
     
+    public init(title: String, date: String, duration: String, like: Int, image: Image) {
+      self.title = title
+      self.date = date
+      self.duration = duration
+      self.like = like
+      self.image = image
+    }
+    
     public struct Image: Identifiable {
       public let id: String = UUID().uuidString
       public let image: UIImage
       public let url: String?
+      
+      public init(image: UIImage, url: String?) {
+        self.image = image
+        self.url = url
+      }
     }
   }
   
