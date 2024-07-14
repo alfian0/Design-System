@@ -107,6 +107,36 @@ Use the `font` declaration to set all font properties at once (`font-weight`, `f
 |![.Label.l](https://github.com/user-attachments/assets/26f2cf61-3ff3-4c9a-a8e0-a695f83f685d)|`.Label.l`|
 |![.Label.xl](https://github.com/user-attachments/assets/8e26a4c4-3eb1-4470-9772-248e243546d0)|`.Label.xl`|
 ### Components
-
+#### Section
+![For You](https://github.com/user-attachments/assets/a1bf71c7-1690-4e0d-b635-cc0d1073b7cf)
+```
+SectionView(axis: .horizontal, title: "For You", models: [
+  CardView.Model(title: "How to hack the education system?",
+                              date: "6 Dec",
+                              duration: "1 hr 15 min",
+                              like: 1,
+                              image: CardView.Model.Image(image: UIImage(named: "thumbnail_1")!, url: nil)),
+  CardView.Model(title: "How to hack the education system?",
+                              date: "6 Dec",
+                              duration: "1 hr 15 min",
+                              like: 1,
+                              image: CardView.Model.Image(image: UIImage(named: "thumbnail_2")!, url: nil))
+]) { model in
+  CardView(model: model)
+    .frame(width: 287)
+}
+```
+#### CardView
+![How to hack the education system_](https://github.com/user-attachments/assets/1ef0514b-ac95-4229-a74a-a1efecbb1bb0)
+```
+CardView(model: model)
+    .frame(width: 287)
+```
+#### CardView2
+![Sleep sounds by nature](https://github.com/user-attachments/assets/eaba5611-c432-4d28-959d-d6f202ecaeb9)
+```
+CardView2(model: model)
+    .frame(width: 257)
+```
 ### Conclusion
 This Design System package is a personal initiative to streamline the implementation of design systems in new projects. By using this package, you can ensure consistency, reduce design debt, and speed up the development process with a well-documented and reusable set of design assets.
