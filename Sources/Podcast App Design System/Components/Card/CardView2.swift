@@ -44,7 +44,7 @@ public struct CardView2: View {
     ZStack {
       self.model.backgroundColor
       
-      HStack(alignment: .center, spacing: Spacing.small) {
+      HStack(alignment: .top, spacing: Spacing.small) {
         Image(uiImage: model.image.image)
           .frame(width: 48, height: 48)
           .cornerRadius(10)
