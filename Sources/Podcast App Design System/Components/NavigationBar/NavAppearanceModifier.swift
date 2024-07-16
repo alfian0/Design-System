@@ -30,6 +30,7 @@ public struct NavAppearanceModifier: ViewModifier {
     UINavigationBar.appearance().scrollEdgeAppearance = navBarApearance
     if let tintColor = tintColor {
       UINavigationBar.appearance().tintColor = tintColor
+      UINavigationBar.appearance().barTintColor = tintColor
     }
   }
   
@@ -39,7 +40,13 @@ public struct NavAppearanceModifier: ViewModifier {
 }
 
 public extension View {
-  func navigationAppearance(backgroundColor: UIColor, foregroundColor: UIColor, tintColor: UIColor? = nil, hideSeparator: Bool = false) -> some View {
-    self.modifier(NavAppearanceModifier(backgroundColor: backgroundColor, foregroundColor: foregroundColor, tintColor: tintColor, hideSeparator: hideSeparator))
+  func navigationAppearance(backgroundColor: UIColor,
+                            foregroundColor: UIColor,
+                            tintColor: UIColor? = nil,
+                            hideSeparator: Bool = false) -> some View {
+    self.modifier(NavAppearanceModifier(backgroundColor: backgroundColor,
+                                        foregroundColor: foregroundColor,
+                                        tintColor: tintColor,
+                                        hideSeparator: hideSeparator))
   }
 }
