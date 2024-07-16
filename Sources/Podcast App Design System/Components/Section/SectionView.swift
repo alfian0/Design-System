@@ -38,7 +38,7 @@ public struct SectionView<T: Identifiable, C: View>: View {
       .padding(.horizontal, Spacing.medium)
       
       GridStack(axis: axis,
-                dividedBy: models.count,
+                dividedBy: 1,
                 models: models,
                 verticalSpacing: Spacing.small,
                 horizontalSpacing: Spacing.small,
