@@ -40,7 +40,7 @@ public struct GridStack<T: Identifiable, Content: View>: View {
     }
     
     private var verticalLayout: some View {
-        VStack(spacing: verticalSpacing) {
+        VStack(alignment: .leading, spacing: verticalSpacing) {
             ForEach(0..<rows, id: \.self) { row in
                 rowView(row: row)
             }
