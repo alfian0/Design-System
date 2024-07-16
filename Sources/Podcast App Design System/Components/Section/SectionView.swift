@@ -37,24 +37,14 @@ public struct SectionView<T: Identifiable, C: View>: View {
       }
       .padding(.horizontal, Spacing.medium)
       
-      ScrollView(self.axis, showsIndicators: false) {
-        if self.axis == .horizontal {
-          HStack {
-            ForEach(self.models) { model in
-              self.content(model)
-                .padding(.leading, model.id == self.models.first!.id ? 16 : 0)
-                .padding(.trailing, model.id == self.models.last!.id ? 16 : 0)
-            }
-          }
-        } else {
-          VStack {
-            ForEach(self.models) { model in
-              self.content(model)
-                .padding(.leading, Spacing.medium)
-                .padding(.trailing, Spacing.medium)
-            }
-          }
-        }
+      GridStack(axis: axis,
+                dividedBy: models.count,
+                models: models,
+                verticalSpacing: Spacing.small,
+                horizontalSpacing: Spacing.small,
+                verticalPadding: Spacing.medium,
+                horizontalPadding: Spacing.medium) { model in
+        content(model)
       }
     }
   }
