@@ -71,7 +71,7 @@ public struct GridStack<T: Identifiable, Content: View>: View {
         content(models[row])
             .frame(maxWidth: .infinity)
             .padding(.leading, row == 0 && axis == .horizontal ? horizontalPadding : 0)
-            .padding(.trailing, row == dividedBy && axis == .horizontal ? horizontalPadding : 0)
+            .padding(.trailing, row == models.count-1 && axis == .horizontal ? horizontalPadding : 0)
     }
     
     private func multiColumnView(row: Int) -> some View {
