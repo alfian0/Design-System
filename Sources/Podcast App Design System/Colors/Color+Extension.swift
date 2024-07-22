@@ -43,7 +43,7 @@ public extension Color {
 }
 
 public extension Color {
-  static let backgrounddAccentEmphasis = Color.defaultAccentEmphasis
+  static let backgroundAccentEmphasis = Color.defaultAccentEmphasis
   static let backgroundAccentMuted = Color.defaultAccentMuted
   static let backgroundDangerEmphasis = Color.defaultDangerEmphasis
   static let backgroundDangerMuted = Color.defaultDangerMuted

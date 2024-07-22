@@ -12,12 +12,16 @@ public struct SectionView<T: Identifiable, C: View>: View {
   let title: String
   let models: [T]
   let content: (T) -> C
+  let actionTitle: String
+  let action: () -> Void
   
-  public init(axis: Axis.Set = .vertical, title: String, models: [T], @ViewBuilder content: @escaping (T) -> C) {
+  public init(axis: Axis.Set = .vertical, title: String, models: [T], @ViewBuilder content: @escaping (T) -> C, actionTitle: String, action: @escaping () -> Void) {
     self.axis = axis
     self.title = title
     self.models = models
     self.content = content
+    self.actionTitle = actionTitle
+    self.action = action
   }
   
   public var body: some View {
@@ -28,12 +32,8 @@ public struct SectionView<T: Identifiable, C: View>: View {
         
         Spacer()
         
-        Button {
-          
-        } label: {
-          Text("See all")
-        }
-        .buttonStyle(.secondary)
+        Button(actionTitle, action: action)
+          .buttonStyle(.secondary)
       }
       .padding(.horizontal, Spacing.medium)
       

@@ -14,7 +14,7 @@ public struct PrimaryButtonStyle: ButtonStyle {
     configuration.label
       .font(.Label.m)
       .padding(Spacing.medium)
-      .background(Capsule().fill(Color.backgrounddAccentEmphasis))
+      .background(Capsule().fill(Color.backgroundAccentEmphasis))
       .foregroundColor(.white)
       .scaleEffect(configuration.isPressed ? 0.95 : 1.0)
   }
