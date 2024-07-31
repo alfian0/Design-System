@@ -8,7 +8,7 @@
 import UIKit
 import SwiftUI
 
-@available(iOS, deprecated: 1f, message: "SearchBar available in iOS 15")
+@available(iOS, deprecated: 15, message: "SearchBar available in iOS 15")
 public struct SearchBar: UIViewRepresentable {
   @Binding var text: String
   
